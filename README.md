@@ -1,7 +1,7 @@
 # OEIS A011541: correction to the seventh-bound remark (not yet submitted)
 
 <!-- oeis-status:begin -->
-**OEIS status: not submitted** (lab registry, 14 Nov 2026).
+**OEIS status: not submitted** (lab registry, 15 Nov 2026).
 
 - [A011541](https://oeis.org/A011541), remark on Pavlov's conjecture vs the bound 101^3*a(6): **candidate** (2026-11-13: repository built (core c6)). Certificate: complete.
 
