@@ -1,0 +1,35 @@
+a(1): N=2
+  factorization=[(2, 1)]
+  omega=1; exact positive unordered cube representations=1
+a(2): N=1729
+  factorization=[(7, 1), (13, 1), (19, 1)]
+  omega=3; exact positive unordered cube representations=2
+a(3): N=87539319
+  factorization=[(3, 3), (7, 1), (31, 1), (67, 1), (223, 1)]
+  omega=5; exact positive unordered cube representations=3
+a(4): N=6963472309248
+  factorization=[(2, 10), (3, 3), (7, 1), (13, 1), (19, 1), (31, 1), (37, 1), (127, 1)]
+  omega=8; exact positive unordered cube representations=4
+a(5): N=48988659276962496
+  factorization=[(2, 6), (3, 3), (7, 4), (13, 1), (19, 1), (43, 1), (73, 1), (97, 1), (157, 1)]
+  omega=9; exact positive unordered cube representations=5
+a(6): N=24153319581254312065344
+  factorization=[(2, 6), (3, 3), (7, 4), (13, 1), (19, 1), (43, 1), (73, 1), (79, 3), (97, 1), (157, 1)]
+  omega=10; exact positive unordered cube representations=6
+B7 (upper bound, not proved minimal): N=24885189317885898975235988544
+  factorization=[(2, 6), (3, 3), (7, 4), (13, 1), (19, 1), (43, 1), (73, 1), (79, 3), (97, 1), (101, 3), (157, 1)]
+  omega=11; exact positive unordered cube representations=7
+  witness=(58798362,2919526806)
+  witness=(309481473,2918375103)
+  witness=(459531128,2915734948)
+  witness=(860447381,2894406187)
+  witness=(1638024868,2736414008)
+  witness=(1766742096,2685635652)
+  witness=(1847282122,2648660966)
+cube representation counts for a(1..6) and B7: [1, 2, 3, 4, 5, 6, 7]
+distinct prime counts for a(1..6) and B7: [1, 3, 5, 8, 9, 10, 11]
+B7 == 101^3 * a(6): True
+conditional omega(B7)>omega(a6): True
+conditional omega(B7)<=2*7: True
+No minimality test has been performed for any a(n).
+elapsed_seconds=0.064779
